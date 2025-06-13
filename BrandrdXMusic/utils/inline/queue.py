@@ -73,7 +73,7 @@ def aq_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⛦ ᴏᴡɴᴇʀ ⛦", url=f"https://t.me/Vip_chor"
+                text="", url=f"https://t.me/Vip_chor"
             ),
             
         ],
@@ -110,7 +110,7 @@ def queuemarkup(_, vidid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="๏ ᴍᴏʀᴇ ๏",
+                text="",
                 url="https://t.me/DCO_TEAM_1",
             ),
         ],
