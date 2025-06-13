@@ -71,10 +71,10 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("DIL_KI_BATE_o")
-                await self.one.join_chat("Anurag_bhai_op")
-                await self.one.join_chat("All_super_music")
-                await self.one.join_chat("TEAM_CHOR")
+                await self.one.join_chat("BWF_MUSIC1")
+                await self.one.join_chat("ALL_QUIZ_TAME")
+                await self.one.join_chat("SHAYRI_CHANNEL1")
+                await self.one.join_chat("MUSICBOT_OWNER")
 
             except:
                 pass
@@ -101,10 +101,10 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("DIL_KI_BATE_o")
-                await self.two.join_chat("Anurag_bhai_op")
-                await self.two.join_chat("All_super_music")
-                await self.two.join_chat("TEAM_CHOR")
+                await self.two.join_chat("BWF_MUSIC1")
+                await self.two.join_chat("ALL_QUIZ_TAME")
+                await self.two.join_chat("SHAYRI_CHANNEL1")
+                await self.two.join_chat("MUSICBOT_OWNER")
             except:
                 pass
             assistants.append(2)
@@ -125,10 +125,10 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("DIL_KI_BATE_o")
-                await self.three.join_chat("Anurag_bhai_op")
-                await self.three.join_chat("All_super_music")
-                await self.three.join_chat("TEAM_CHOR")
+                await self.three.join_chat("BWF_MUSIC1")
+                await self.three.join_chat("ALL_QUIZ_TAME")
+                await self.three.join_chat("SHAYRI_CHANNEL1")
+                await self.three.join_chat("MUSICBOT_OWNER")
             except:
                 pass
             assistants.append(3)
@@ -148,10 +148,10 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("DIL_KI_BATE_o")
-                await self.four.join_chat("Anurag_bhai_op")
-                await self.four.join_chat("All_super_music")
-                await self.four.join_chat("TEAM_CHOR")
+                await self.four.join_chat("BWF_MUSIC1")
+                await self.four.join_chat("ALL_QUIZ_TAME")
+                await self.four.join_chat("SHAYRI_CHANNEL1")
+                await self.four.join_chat("MUSICBOT_OWNER")
             except:
                 pass
             assistants.append(4)
@@ -171,10 +171,10 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("DIL_KI_BATE_o")
-                await self.five.join_chat("Anurag_bhai_op")
-                await self.five.join_chat("All_super_music")
-                await self.five.join_chat("TEAM_CHOR")
+                await self.five.join_chat("BWF_MUSIC1")
+                await self.five.join_chat("ALL_QUIZ_TAME")
+                await self.five.join_chat("SHAYRI_CHANNEL1")
+                await self.five.join_chat("MUSICBOT_OWNER")
             except:
                 pass
             assistants.append(5)
@@ -206,3 +206,4 @@ class Userbot(Client):
                 await self.five.stop()
         except:
             pass
+            
